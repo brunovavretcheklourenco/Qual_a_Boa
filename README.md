@@ -17,3 +17,9 @@ Todo e qualquer questionamento é completamente bem vindo, porém, é esperado q
 
 Importante lembrar que as melhorias serão apresentadas e validadas para ambas as plataformas no momento do fórum.
 Por este motivo, ressalto a importância da participação no Fórum Semanal da Engenharia App.
+
+# Modelo de Branches
+
+- master
+- develop
+- feature/iOS/versão/nomeDaFuncionalidade
