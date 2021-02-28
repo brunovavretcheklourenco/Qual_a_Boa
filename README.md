@@ -15,4 +15,5 @@ Todo e qualquer questionamento é completamente bem vindo, porém, é esperado q
 - Integrações necessárias
 - Informações relevantes para implementação nos aplicativos
 
-Importante lembrar que as melhorias serão apresentadas e validadas para ambas as plataformas no momento do fórum. Por este motivo, ressalto a importância da participação no Fórum Semanal da Engenharia App.
+Importante lembrar que as melhorias serão apresentadas e validadas para ambas as plataformas no momento do fórum.
+Por este motivo, ressalto a importância da participação no Fórum Semanal da Engenharia App.
