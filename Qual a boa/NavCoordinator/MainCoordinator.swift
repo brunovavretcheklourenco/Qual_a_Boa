@@ -17,9 +17,7 @@ class MainCoordinator: Coordinator & Coordinated {
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
-    
-    @objc func addTapped() {}
-    
+        
     func start() {
         let homeVC = HomeViewController()
         homeVC.coordinator = self
