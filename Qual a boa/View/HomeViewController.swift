@@ -24,9 +24,6 @@ class HomeViewController: UIViewController {
     }
     
     private func setupScreen() {
-        let add = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: nil)
-               navigationItem.rightBarButtonItems = [add]
-        
         self.title = "Qual a boa?"
         self.view.backgroundColor = .white
         HomeViewController.locationHelper = LocationManager()
@@ -39,7 +36,7 @@ class HomeViewController: UIViewController {
     }
     
     private func setConstraints() {
-        self.mapView.heightAnchor.constraint(equalToConstant: 660).isActive = true
+        self.mapView.heightAnchor.constraint(equalToConstant: self.view.frame.height - 200).isActive = true
         self.mapView.safeAreaLayoutGuide.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 0).isActive = true
         self.mapView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 0).isActive = true
         self.mapView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: 0).isActive = true

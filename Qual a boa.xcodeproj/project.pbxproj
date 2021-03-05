@@ -17,6 +17,8 @@
 		B7317E9E25E53DB000C73848 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7317E9D25E53DB000C73848 /* Coordinator.swift */; };
 		B7317EA025E53DBA00C73848 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7317E9F25E53DBA00C73848 /* MainCoordinator.swift */; };
 		B7317EAB25E5B11800C73848 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7317EAA25E5B11800C73848 /* LoginViewController.swift */; };
+		B76036BA25F1E51D00ABA858 /* 26873-moving.json in Resources */ = {isa = PBXBuildFile; fileRef = B76036B925F1E51C00ABA858 /* 26873-moving.json */; };
+		B7AB0CEA25F06FF100D4DAE7 /* 13498-new-year-party.json in Resources */ = {isa = PBXBuildFile; fileRef = B7AB0CE925F06FF100D4DAE7 /* 13498-new-year-party.json */; };
 		FB954C58E1C178D1D83AA2D9 /* Pods_Qual_a_boa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCA96FC617425F3E9B7BA85 /* Pods_Qual_a_boa.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		B7317E9D25E53DB000C73848 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B7317E9F25E53DBA00C73848 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		B7317EAA25E5B11800C73848 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B76036B925F1E51C00ABA858 /* 26873-moving.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "26873-moving.json"; sourceTree = "<group>"; };
+		B7AB0CE925F06FF100D4DAE7 /* 13498-new-year-party.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "13498-new-year-party.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		B7317E8125E45A4400C73848 /* Qual a boa */ = {
 			isa = PBXGroup;
 			children = (
+				B76036B925F1E51C00ABA858 /* 26873-moving.json */,
+				B7AB0CE925F06FF100D4DAE7 /* 13498-new-year-party.json */,
 				B7317E9025E45A4600C73848 /* Info.plist */,
 				B7317EA625E5690800C73848 /* Location Helper */,
 				B7317EA825E5693F00C73848 /* Other */,
@@ -195,8 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76036BA25F1E51D00ABA858 /* 26873-moving.json in Resources */,
 				B7317E8F25E45A4600C73848 /* LaunchScreen.storyboard in Resources */,
 				B7317E8C25E45A4600C73848 /* Assets.xcassets in Resources */,
+				B7AB0CEA25F06FF100D4DAE7 /* 13498-new-year-party.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43JK5NQQS8;
 				INFOPLIST_FILE = "Qual a boa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43JK5NQQS8;
 				INFOPLIST_FILE = "Qual a boa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

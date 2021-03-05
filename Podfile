@@ -7,4 +7,5 @@ target 'Qual a boa' do
 
   # Pods for Qual a boa
     pod 'RxSwift'
+    pod 'lottie-ios'
 end
